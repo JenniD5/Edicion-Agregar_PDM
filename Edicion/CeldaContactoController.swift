@@ -7,3 +7,16 @@
 //
 
 import Foundation
+import UIKit
+
+class CeldaContactoController:UITableViewCell
+{
+
+@IBOutlet weak var lblCorreo: UILabel!
+
+@IBOutlet weak var lblCelular: UILabel!
+
+@IBOutlet weak var lblNombre: UILabel!
+    
+    
+}

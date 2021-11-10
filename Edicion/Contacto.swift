@@ -7,3 +7,16 @@
 //
 
 import Foundation
+
+class Contacto {
+    var nombre: String
+    var celular: String
+    var correo: String
+    
+    init(nombre:String, celular: String, correo: String) {
+        self.celular = celular
+        self.correo = correo
+        self.nombre = nombre
+    }
+
+}
